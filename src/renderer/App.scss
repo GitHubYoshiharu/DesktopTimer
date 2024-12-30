@@ -1,0 +1,56 @@
+@import "dseg/css/dseg.css";
+
+body {
+  background-color: #1e222a;
+}
+
+.App {
+  text-align: center;
+}
+
+.main {
+  background-color: #1e222a;
+}
+
+.timer {
+  display: inline-block;
+  font-family: DSEG7-Classic;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 1.5;
+  color: #40a040;
+  padding: 4px;
+  margin: 4px;
+}
+
+.timeInputButtons{
+  padding-bottom: 12px;
+  button {
+    font-family: Segoe UI;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ccc;
+    background-color: #5a5e66;
+    border: #464a52;
+    border-radius: 5px;
+    padding: 4px 6px;
+    margin: 2px 4px;
+    cursor: pointer;
+  }
+}
+
+.manipulationButtons{
+  padding-bottom: 6px;
+  button {
+    font-family: Segoe UI;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ccc;
+    background-color: #5a5e66;
+    border: #464a52;
+    border-radius: 5px;
+    padding: 4px 6px;
+    margin: 2px 4px;
+    cursor: pointer;
+  }
+}
